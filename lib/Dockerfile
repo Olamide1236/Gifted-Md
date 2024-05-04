@@ -32,4 +32,4 @@ RUN git clone https://github.com/mouricedevs/Gifted-Md /root/GiftedMd
 WORKDIR /root/GiftedMd/
 RUN npm install
 EXPOSE 8000
-CMD ["npm","start" ] 
+CMD ["node","lib/smd.js" ] 

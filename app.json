@@ -43,7 +43,7 @@
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
       "required" :false,    
       "value": "false"
-    },     
+    },          
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required" :false,    
@@ -73,6 +73,11 @@
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
       "value": "available"
+    },
+    "GURL": {
+      "description": " If you Change Bot won't Respond",
+      "required" :true,    
+      "value": "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
